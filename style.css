@@ -15,4 +15,60 @@
     text-align: center;
     text-transform: capitalize;
     color: #417DAF;
+    margin-bottom: 91px;
+}
+.img-cont img{
+    width: 760px;
+    height: 797px;
+}
+.img-cont {
+    width: 760px;
+    height: 797px;
+}
+.txt-cont {
+    width: 760px;
+    height: 797px;
+    background: #E5F3FF;
+}
+.txt-in-txt-cont {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 60px;
+    /* text-align: center; */
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #E59845;
+    margin-top: 111px;
+    margin-left: 105px;
+    margin-bottom: 76px;
+}
+.AB-lorem {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1em;
+    color: rgba(0, 0, 0, 0.55);
+    margin-bottom: 49px;
+    margin-left: 105px;
+}
+.txt-img-cont-nasa {
+    display: flex;
+    width: 100%;
+    height: 797px;
+}
+.AB-but-nasa {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    letter-spacing: 0.1em;
+    color: #E59845;
+    margin-left: 105px;
+    padding: 20px 69px;
+    background: none;
 }
