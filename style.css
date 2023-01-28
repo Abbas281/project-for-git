@@ -3,13 +3,13 @@
     padding: 0;
     margin: 0;
 }
-.db-container1{
+/* .db-container1{
 width: 100%;
 height: 520px;
 left: 0px;
 top: 960px;
 background: #FFF5E5;
-}
+} */
 .txt-nasa {
     font-family: 'Playfair Display';
     font-style: normal;
@@ -76,3 +76,131 @@ background: #FFF5E5;
     padding: 20px 69px;
     background: none;
 }
+.db-container1{
+    width: 100%;
+    height: 520px;
+    left: 0px;
+    top: 960px;
+    background: #FFF5E5;
+}
+.db-text{
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 72px;
+    text-align: center;
+    color: #417DAF;
+}
+.db-container2{
+    position: relative;
+    width: 100%;
+    height: 175px;
+    top: 150px;
+    left: 20px;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    
+}
+.db-container2 p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+header {
+    background-image: url(/image/Background.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+    height: 140vh;
+
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 33px 58px 191px 100px;
+    gap: 50px;
+}
+
+.MN-leftnav,.MN-rightnav {
+    display: flex;
+    list-style: none;
+    flex: 0 1 auto;
+    gap: 50px;
+    color: white;
+    
+    
+    
+}
+
+.MN-hotel {
+    font-size: 62px;
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.MN-p {
+    text-align: center;
+    margin-bottom: 123px;
+}
+
+.MN-p img {
+    margin-left: 17px;
+
+}
+
+.MN-book {
+    background-color: white;
+    margin: 0 auto 229px auto;
+
+    max-width: 965px;
+    
+
+    
+} 
+.MN-div-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    
+}
+.MN-book__Subtitle {
+    display: flex;
+    
+}
+
+.MN-book__title_p {
+font-size: 26px;
+font-weight: 500;
+letter-spacing: 0em;
+text-align: center;
+color: #FFBC73;
+margin-bottom: 17px;
+
+}
+
+.MN-div__items p:first-child {
+    margin-bottom: 23px;
+}
+
+.MN-btn {
+    display: flex;
+    background-color: #FFBB73;
+    justify-content: center;
+    align-items: center;
+    width: 224px;
+    height: 109px;
+    align-self: flex-end;
+    
+}
+
+
+
